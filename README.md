@@ -4,4 +4,5 @@ Este projeto é um carrossel simples de produtos feito apenas com **HTML e CSS**
 
 ## 🎥 Demonstração
 
-![Demonstração do Carrossel](./Carrossel-DESAFIO\carrossel.gif)
+![Demonstração do Carrossel](![carrossel](https://github.com/user-attachments/assets/d32df862-d9e3-4989-b035-b87cb058d11c)
+)
