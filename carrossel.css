@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+}
+
+#carrossel-container{
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: white;
+    
+}
+
+.carrossel{
+    display: flex;
+    animation: deslizar 13s linear infinite;
+}
+
+
+.itens{
+    min-width: 300px;
+    flex-shrink: 0;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #333;
+
+}
+
+.itens img{
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+.itens button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.itens button:hover{
+    background-color: #4297a292;
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+@keyframes deslizar{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-400%);
+    }
+}
+
+#carrossel-container:hover .carrossel{
+    animation-play-state: paused;
+}
